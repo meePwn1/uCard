@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/_head.htm',{
+"title":"HomePage"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<section class="main">
+				<div class="main__container">
+					<div class="main__wrapper">
+						<div class="main__content">
+							<h1 class="level-2 main__title">Инновационная кредитная карта <span>uCard</span> <i>neo</i></h1>
+							<p class="level-1 main__text">Фантастическая скорость обработки персональных данных и самые современные технологии выводят опыт использования кредитных карт на новый, невероятно высокий
+								уровень.
+							</p>
+							<a href="" class="main__button"> <span><img src="@img/icons/arrow.svg" alt=""></span> Попробовать</a>
+
+						</div>
+						<div class="main__card card">
+							<img class="level--2 card__bg-3" src="@img/_src/l3_main.svg" alt="">
+							<img class="level--1 card__bg-2" src="@img/_src/l2_main.svg" alt="">
+							<img class="card__bg" src="@img/_src/l_main.svg" alt="">
+							<img class="card__bg-map" src="@img/_src/russia.svg" alt="">
+							<img class="level-1 card__logo" src="@img/_src/logo_w.svg" alt="">
+							<img class="card__chip" src="@img/_src/chip.svg" alt="">
+							<img class=" level-2 card__holder" src="@img/_src/number-holder.svg" alt="">
+							<img class="level-1 card__valid" src="@img/_src/valid.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<div id="cursor"></div>
+		<div id="aura"></div>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
