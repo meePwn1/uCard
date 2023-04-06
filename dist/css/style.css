@@ -71,6 +71,7 @@ h6 {
 
 body {
   font-weight: 300;
+  overflow-x: hidden;
   background-color: #1c1c1c;
 }
 
@@ -322,7 +323,6 @@ body {
           flex: 1 1 auto;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  overflow-x: hidden;
 }
 
 .main__content {
@@ -503,16 +503,13 @@ body {
 }
 
 #aura {
-  width: 46px;
-  height: 46px;
+  width: 60px;
+  height: 60px;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  -webkit-transform: translate(4px, 4px);
-      -ms-transform: translate(4px, 4px);
-          transform: translate(4px, 4px);
-  background-color: rgba(255, 255, 255, 0.1);
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: translate(-3px, -3px) scale(1);
+      -ms-transform: translate(-3px, -3px) scale(1);
+          transform: translate(-3px, -3px) scale(1);
+  background-color: rgba(255, 255, 255, 0.03);
 }
 
 #aura.active {

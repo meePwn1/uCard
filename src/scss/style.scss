@@ -61,6 +61,7 @@ $responsiveType: 1;
 
 body {
 	font-weight: 300;
+	overflow-x: hidden;
 	background-color: #1c1c1c;
 	// Скролл заблокирован
 	.lock & {
@@ -183,7 +184,6 @@ body {
 		min-height: 700px;
 		flex: 1 1 auto;
 		transform-style: preserve-3d;
-		overflow-x: hidden;
 		@media (min-width: $tablet) {
 			max-width: 1030px;
 			justify-content: space-between;
@@ -392,12 +392,11 @@ body {
 	}
 }
 #aura {
-	width: 46px;
-	height: 46px;
+	width: 60px;
+	height: 60px;
 	border: 1px solid rgba($color: #fff, $alpha: 0.5);
-	transform: translate(4px, 4px);
-	background-color: rgba($color: #fff, $alpha: 0.1);
-	transform: scale(1);
+	transform: translate(-3px, -3px) scale(1);
+	background-color: rgba($color: #fff, $alpha: 0.03);
 	&.active {
 		border: 1.2px solid rgba($color: #fff, $alpha: 0.8);
 		transform: scale(1.3);
