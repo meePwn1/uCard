@@ -183,6 +183,7 @@ body {
 		min-height: 700px;
 		flex: 1 1 auto;
 		transform-style: preserve-3d;
+		overflow-x: hidden;
 		@media (min-width: $tablet) {
 			max-width: 1030px;
 			justify-content: space-between;
